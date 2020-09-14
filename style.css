@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(115, 100%, 40%);
+}
+.home img {
+    width: 60px;
+    height: 50px;
+}
+.home p {
+    font-size: 20px;
+}
+.foto img{
+    width: 100%;
+    margin-top: 10px;
+    height: 400px;
+}
+.principal {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+li {
+    color:hsl(115, 100%, 40%) ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.principal p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+.principal img{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+}
+.topicos {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+   
+}
+.principal h2{
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+input{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+
+}
+.calculadora{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.calculadora input{
+    display: block;
+}
+.calculadora p {
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color:white;
+    background-color: hsl(115, 100%, 40%) ;
+}
+button:hover{
+    color:hsl(115, 100%, 40%) ;
+    background-color: #fff;
+    transition: 1s;
+}
