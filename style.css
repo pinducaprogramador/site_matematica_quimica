@@ -2,10 +2,31 @@
     padding: 0;
     margin: 0;    
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-family: 'Grandstander', cursive;
+    padding: 10px;
+}
+
+
+.home a:hover{
+    background-color: #fff;
+    color: #00a61b;
+    transition: 0.5s;
+}
+
+
 .home {
     display: flex;
-    justify-content: space-between;
-    background-color: hsl(115, 100%, 40%);
+    justify-content: space-around;
+    background-color:#00a61b;
+    
+    height: 40px;
 }
 .home img {
     width: 60px;
@@ -25,10 +46,11 @@
     margin-right: auto;
 }
 li {
-    color:hsl(115, 100%, 40%) ;
+    color:#00a61b ;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     margin-top: 30px;
+    font-weight: bold;
 
 }
 .principal p{
@@ -37,7 +59,7 @@ li {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    font-weight: bold;
+    
 }
 .principal img{
     max-width: 90%;
@@ -52,6 +74,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     list-style: none;
+    font-weight: normal;
    
 }
 .principal h2{
@@ -69,19 +92,172 @@ input{
     margin-left: auto;
     margin-right: auto;
 }
+.calculadora h3{
+    margin-top: 30px;
+
+}
+
 .calculadora input{
     display: block;
 }
 .calculadora p {
     width: 100%;
-    margin: 10px;
+    margin-top: 40px;
+    font-size: 19px;
 }
 button{
     color:white;
-    background-color: hsl(115, 100%, 40%) ;
+    background-color: #00a61b ;
+    width: 7%;
+     height:30px ;
+     border-radius: 5px;
+     border: solid 1px transparent;
 }
 button:hover{
-    color:hsl(115, 100%, 40%) ;
-    background-color: #fff;
+   
+    color: #ffffff;
+    background-color: #006911;
     transition: 1s;
+}
+footer{
+    width: 100%;
+    font-family: 'Grandstander', cursive;
+    background-color: #00a61b;
+    display: flex;
+    justify-content: space-around;
+}
+footer p{
+    padding: 50px;
+}
+footer i{
+    padding: 30px;
+   width: 9%;
+}
+footer img{
+    width: 13%;
+}
+.icons{
+    font-size: 2.6em;
+}
+.icons:hover{
+    background-color:#fff ;
+    color: #00a61b;
+    transition: 0.5s;
+    text-shadow: 2px 2px 2px #006911;
+}
+@media (min-width:800px){
+    #contatos img{
+        width: 19%;
+    }
+    button{
+        width: 10%;
+    }
+    input{
+        height: 20px;
+        width: 15%;
+    }
+}
+@media (min-width:700px){
+    #contatos img{
+        width: 19%;
+    }
+    button{
+        width: 10%;
+    }
+    input{
+        height: 20px;
+        width: 15%;
+    }
+    .home{
+        font-size: 20px;
+    }
+}
+@media (min-width:400px){
+    #contatos img{
+        width: 0;  
+    }
+    
+    button{
+        width: 20%;
+    }
+    input{
+        margin-top: 10px;
+        height: 20px;
+        width: 30%;
+    }
+    .home{
+        font-size: 13px;
+    }
+}
+@media (min-width:350px){
+    #contatos img{
+        width: 0%;
+    }
+    #contatos{
+        font-size: 14px;
+    }
+    button{
+        width: 30%;
+    }
+    input{
+        height: 20px;
+        width: 35%;
+    }
+    .home{
+        font-size: 11px;
+    }
+}
+@media (min-width:290px){
+    #contatos img{
+        width: 0%;
+    }
+    #contatos{
+        font-size: 14px;
+    }
+    button{
+        width: 30%;
+    }
+    input{
+        height: 20px;
+        width: 35%;
+    }
+    .home{
+        font-size: 11px;
+    }
+}
+@media (min-width:1200px){
+    #contatos img{
+        width: 10%;
+    }
+    #contatos{
+        font-size: 14px;
+    }
+    button{
+        width: 10%;
+    }
+    input{
+        height: 20px;
+        width: 15%;
+    }
+    .home{
+        font-size: 16px;
+    }
+}
+@media (min-width:1000px){
+    #contatos img{
+        width: 15%;
+    }
+    #contatos{
+        font-size: 14px;
+    }
+    button{
+        width: 10%;
+    }
+    input{
+        height: 20px;
+        width: 15%;
+    }
+    .home{
+        font-size: 16px;
+    }
 }
